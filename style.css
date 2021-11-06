@@ -1,0 +1,11 @@
+img {
+  width: 50%;
+}
+h2 {
+  letter-spacing: normal;
+  color: green;
+  text-shadow: 2px 2px purple;
+}
+.main_li {
+  color: green;
+}
