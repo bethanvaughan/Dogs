@@ -6,6 +6,35 @@ h2 {
   color: green;
   text-shadow: 2px 2px purple;
 }
+
+h2:hover {
+  color: pink;
+}
 .main_li {
   color: green;
+}
+
+.container {
+  text-align: center;
+}
+
+.card {
+  margin-left: 20px;
+}
+
+body {
+  background-color: green;
+}
+
+@media only screen and (max-width: 620px) {
+  body > h2 {
+    background-color: red;
+  }
+
+  body > img {
+    width: 100% !important;
+  }
+  body .bg-info {
+    background-color: pink !important;
+  }
 }
